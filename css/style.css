@@ -26,6 +26,7 @@ h2, h3{
     }
 
 /***Class selectors***/
+@media all and (min-width:300px){
 .container{
     display:flex;
     flex-wrap: wrap;
@@ -41,6 +42,7 @@ h2, h3{
     max-width: 350px;
     
     box-sizing: border-box; 
+}
 }
 @media all and (min-width:800px){
     .container{
