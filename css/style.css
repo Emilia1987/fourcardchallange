@@ -1,0 +1,133 @@
+/****HTML elements****/
+
+body{
+    
+    font-size:15px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(163, 165, 174);
+    font-weight: 200;
+    background-color: hsl(0, 0%, 98%);
+    box-sizing: border-box;
+}
+.header{
+    text-align:center;
+    padding: 30px auto 30px auto;
+    margin:0 auto;
+}
+
+h1{
+    color:#414249;
+    font-weight:600;
+    margin:0 auto;
+}
+
+h2, h3{
+    color:#414249;
+    }
+
+/***Class selectors***/
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex:1;
+    height: 100%;
+}
+
+.container > div{
+    height:100%;
+    padding: 30px;
+    margin: 15px;
+    max-width: 300px;
+    
+    box-sizing: border-box; 
+}
+@media all and (min-width:800px){
+    .container{
+        flex-wrap:wrap;
+        
+    }
+    
+ .push{
+        transform: translateY(50%) ;
+
+    }
+
+  
+}
+@media screen and (min-width:1440px) {
+    @media screen and (min-width:500px) {
+      .p-top {
+        padding: 0 28.125rem 0;}
+   
+      }
+    }
+
+
+.supervisor{
+    -webkit-box-shadow: 6px 5px 22px 1px #A3A5AE; 
+box-shadow: 6px 5px 22px 1px #A3A5AE;
+
+   background-color: white;
+    border-top: hsl(180, 62%, 55%) 5px solid ;
+    border-radius: 5px;
+    box-sizing: border-box;
+   
+   
+  
+    
+    
+}
+.img-supervisor{
+    display: block;
+    margin-left: auto;
+}
+
+.team-builder{
+    -webkit-box-shadow: 6px 5px 22px 1px #A3A5AE; 
+box-shadow: 6px 5px 22px 1px #A3A5AE;
+    background-color: white;
+    border-top: hsl(0, 78%, 62%) 5px solid ;
+    border-radius: 5px;
+  
+    box-sizing: border-box;
+}
+  
+.img-team-builder{
+    display: block;
+    margin-left: auto;
+    
+}
+
+
+.karma{
+    -webkit-box-shadow: 6px 5px 22px 1px #A3A5AE; 
+box-shadow: 6px 5px 22px 1px #A3A5AE;
+    background-color: white;
+    border-top: hsl(34, 97%, 64%) 5px solid ;
+    border-radius: 5px;
+   
+   
+  
+}
+.img-karma{
+    display: block;
+    margin-left: auto;
+  
+}
+
+
+.calculator{
+    -webkit-box-shadow: 6px 5px 22px 1px #A3A5AE; 
+box-shadow: 6px 5px 22px 1px #A3A5AE;
+    background-color: white;
+    border-top: hsl(212, 86%, 64% )5px solid ;
+    border-radius: 5px;
+   
+    box-sizing: border-box;
+   
+}
+.img-calculator{
+    display: block;
+    margin-left: auto;
+}
